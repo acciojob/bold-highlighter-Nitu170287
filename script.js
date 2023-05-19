@@ -1,6 +1,6 @@
 function highlight() {
     //Write your code here
-var item = document.getElementsByTagName(strong);
+var item = document.getElementsByTagName("strong");
 	for(let i=0;i<item.length;i++){
 		item[i].style.color = "green";
 	}
@@ -10,7 +10,7 @@ var item = document.getElementsByTagName(strong);
 
 function return_normal() {
     //Write your code here
-var item = document.getElementsByTagName(strong);
+var item = document.getElementsByTagName("strong");
 	for(let i=0;i<item.length;i++){
 		item[i].style.color = "black";
 	}
